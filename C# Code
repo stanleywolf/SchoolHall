@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _16.schoollHall
+{
+    class schoollHall
+    {
+        static void Main(string[] args)
+        {
+            double lenght = double.Parse(Console.ReadLine());
+            double widht = double.Parse(Console.ReadLine());
+            int rows =(int)( lenght / 1.2);
+            int seatsPerRow =(int)( (widht-1) / 0.7);
+            int result = (rows * seatsPerRow) - 3;
+            Console.WriteLine(result);
+    
+            
+
+            
+        }
+    }
+}
